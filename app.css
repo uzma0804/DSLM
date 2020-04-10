@@ -1,0 +1,408 @@
+body {
+    background:white;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+.vid {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.osf{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ .zoom {
+  zoom: 150%;
+}
+.h1{
+    font-size:2em;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    margin-left:40px; 
+    margin-right:40px;
+    padding-bottom:5px;
+    padding-top:20px;
+    font-weight:bold;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color:  #7ebec0;
+    font-size:1.1rem;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    padding: 15px 16px;
+
+}
+
+#mainNavbar.navbar.scrolled .nav-link{
+    color:white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: ;
+    font-size:20px;
+    font-weight:bold;
+
+}
+
+
+#mainNavbar .navbar-brand {
+    color: #373A36;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+    font-family:sans-serif;
+}
+
+.navbar.scrolled {
+    background: #7ebec0;
+    box-shadow: 0 0 5px 5px #7ebec0;
+    transition: background 500ms;
+
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+p{
+    color:  #6d0303;
+    font-family:sans-serif;
+}
+
+
+p a:hover{
+    color: #6d0303;
+}
+
+button {
+      display: inline-block;
+      background-color:#3ebabd;
+      border-radius: 10px;
+      border: 10px outset #cccccc;
+      color: white;
+      text-align: center;
+      font-size: 1em;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.7s;
+      cursor: pointer;
+      margin: 5px;
+}
+   
+button:hover {
+      background-color:white;
+      color:#3ebabd;
+      font-style:oblique;
+      }
+     
+button:hover span:after {
+      opacity: 1;
+      right: 0;
+      }
+
+ h2{
+  font-family: "Arial", sans-serif;  
+ }
+
+
+
+
+a{
+    color:white;
+
+}
+
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+ @media (max-width:960px) {
+     h2 {
+         margin-bottom: 0px;
+         padding-top: 0px;
+         font-size: 24px
+     }
+ }
+
+ .intro {
+     font-size: 16px;
+     max-width: 500px;
+     margin: 0 auto
+ }
+
+ .intro p {
+     margin-bottom: 0
+ }
+
+ .people {
+     padding: 5px 0;
+     cursor: pointer
+ }
+
+ .item {
+     margin-bottom: 30px
+ }
+
+ .item .box {
+     text-align: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 280px;
+     width:auto;
+     border-radius:50%;
+     position: relative;
+     overflow: hidden
+ }
+
+ .item .cover {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(126, 190, 192, 0.65);
+     transition: opacity 0.15s ease-in;
+     opacity: 0;
+     padding-top: 80px;
+     color: #fff;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+ }
+
+ .item:hover .cover {
+     opacity: 1
+ }
+
+ .item .name {
+     font-weight: bold;
+     margin-bottom: 8px
+ }
+
+ .item .title {
+     text-transform: uppercase;
+     font-weight: bold;
+     color:white;
+     letter-spacing: 2px;
+     font-size: 10px;
+     margin-bottom: 20px
+ }
+
+
+.item .titles {
+     text-transform: uppercase;
+     font-weight: bold;
+     color:white;
+     letter-spacing: 2px;
+     font-size: 14px;
+     margin-bottom: 20px
+ }
+
+ .social {
+     font-size: 18px
+ }
+
+ .social a {
+     color: inherit;
+     margin: 0 10px;
+     display: inline-block;
+     opacity: 0.7
+ }
+
+ .social a:hover {
+     opacity: 1
+ }
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+.footer #button{
+    width:210px;
+    height:40px;
+    border: #727172 12px solid;
+    border-radius:35px;
+    margin:0 auto;
+    object-position: bottom;
+    padding:0 2% 0 2%;
+
+}
+.footer #button:hover{
+    width:35px;
+    height:35px;
+    border: #3A3A3A 12px solid;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position:absolute;
+}
+.footer {
+    bottom:0;
+    left:0;
+    position:sticky;
+    width: 100%;
+    height: 2.5em;
+    overflow:hidden;
+    margin:0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index:999;
+}
+.footer:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    height:10em;
+}
+.footer #container{
+    margin-top:10px;
+    width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+    background: #7ebec0;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+    width:150px;
+    height:auto;
+    margin:0 auto;
+}
+.footer_center{
+    width:500px;
+    float:left;
+  text-align:center;
+}
+.footer h3{
+    font-family: 'Helvetica';
+    font-size: 30px;
+    font-weight: 100;
+    margin-top:70px;
+    margin-left:40px;
+}
+
+
+
+.op{
+    position: absolute;
+}
+
+
+
+article {
+  max-width: 80%;
+  margin: 0 auto;
+}
+ 
+hr.sep-3 {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, #f0f0f0, #7ebec0, #f0f0f0);
+}
+hr.sep-3::after {
+  content: '♕';
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  padding: 0.6rem;
+  background-color:white ;
+  color:#7ebec0;
+}
+
+
+
+
+
+/*
+
+
+
+
