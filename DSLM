@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@uzma0804 
+uzma0804
+/
+project
+Private
+1
+0
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+project/DSLM
+@uzma0804
+uzma0804 Update DSLM
+Latest commit b74eb4f 17 days ago
+ History
+ 1 contributor
+466 lines (278 sloc)  21.9 KB
+  
  <!doctype html>
 <html lang="en">
 
@@ -128,9 +160,22 @@
     <section  id="link" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:50px; background-image:url(paper.JPG); height:29em; width:auto; background-repeat: no-repeat; background-size: cover; opacity: 50%">
         <div class="row align-items-center">
 
-                     <a  class="osf" href="https://osf.io/mghj3" style="color:white; padding: 11% 22.5% 0% 23.2%"> 
+            <a  class="osf" href="https://osf.io/mghj3" style="color:white; padding: 3.5% 22.5% 0% 23.2%"> 
 <button type="button" id="bt" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-lg btn-block" style="font-size:1.2em;">OSF PREPRINT LINK TO DOWNLOAD THE PAPER AND SUPPLEMENTAL MATERIALS</button>
                     </a>
+
+                     <a  class="osf" href="https://www.youtube.com/watch?v=ZbfpJikhvRc&t=324s" style="color:white; padding: 1% 34.5% 0% 38.1%"> 
+<button type="button" id="bt" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-lg btn-block" style="font-size:1.2em;">DSLM PAPER PRESENTATION VIDEO</button>
+                    </a>
+
+                     <a  class="osf" href="https://medium.com/multiple-views-visualization-research-explained/conduct-design-studies-in-your-visualization-class-and-make-an-impact-on-your-community-28b9d357c46f" style="color:white; padding: 1% 2.5% 0% 22.7%"> 
+<button type="button" id="bt" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-lg btn-block" style="font-size:1.2em;"><OBJECT>MEDIUM POST: TEACHING VISUALIZATION WITH DESIGN STUDIES FOR SOCIAL GOOD</OBJECT></button>
+                    </a>
+                    <a  class="osf" href="https://repository.library.northeastern.edu/files/neu:cj82qh36p/fulltext.pdf" style="color:white; padding: 1% 2.5% 0% 35.9%"> 
+<button type="button" id="bt" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-lg btn-block" style="font-size:1.2em;"><OBJECT>WORKSHOP PAPER BY BORKIN ET AL. 2017</OBJECT></button>
+                    </a>
+
+
                      
            
             
@@ -218,7 +263,17 @@ achieving their goals, and novice students getting to work
 with real-world data prompts us to vouch for the inclusion of
 Service-Learning in visualization pedagogy. It can be used as a key application of Design Study "Lite" Methodology because it not only helps the community but also provides students with skills and experiences otherwise unattainable in a classroom environment. It provides students real-world data science experience and exposes them to a more realistic approach of creating visualizations. This allows the students to better learn the concepts of their Visualization course curriculum. It also develops them professionally and opens up future opportunities of working with the community. Moreover, having a real community stakeholder prompts the students to complete their projects sincerely and with utmost care and not just for the sake of achieving a good grade. Most importantly, it instills a sense of giving back to the community and a civic responsibility in students and enables them to make a positive impact on the community they live in.</span>
 </p>  
-<p style="font-size:1.2em; color:#7ebec0; text-align:center; padding:0 21% 0 21%; font-weight:bold; background-color:white; box-shadow: 0 0 20px 35px white"> If you are interested to learn more about Service-Learning or Visualization for Social Good, scroll down to find a few links to get you started:
+<p style="font-size:1.4em; color:#7ebec0; text-align:center; padding:0 21% 0 21%; font-weight:bold; background-color:white; box-shadow: 0 0 20px 35px white"> How Service-Learning based Pedagogy is advantageous to women in STEM
+
+
+    <p style="font-size:1.2em; color:grey; text-align:justify; padding:0 16% 0 16%;">
+        The novel Service-Learning (S-L) based Data Visualization pedagogy by Dr. Michelle A. Borkin has increased the number of female students engaged in data visualization, and more broadly data science, at Northeastern University.  Women are less likely than men to engage or stay in STEM fields (i.e., “leaky pipeline”) (Paquin 2006).  One area of “leak” occurs at the undergraduate level based on the pedagogical styles of many STEM courses, which are not supportive for women.  In order to develop a pedagogy in her course that is advantageous to women, Prof. Borkin chose to apply S-L. This innovative pedagogy with S-L has created the opportunity for more women to become engaged and successful with data visualization, and data science more broadly, through a cooperative non-competitive learning environment within the context of social impact. Many positive effects of S-L on students have been demonstrated, including the development of leadership skills (Astin, et al., 2000) and instilling a sense of meaning and purpose to their academic studies and interpersonal and communication skills (Eyler & Giles 1999). S-L  has  also  been  shown  to  foster  diversity awareness, exposure to other cultures, and an increased sense of community (Eyler & Giles 1999).
+</p>  
+
+<p style="font-size:1.2em; color:grey; text-align:justify; padding:0 16% 0 16%;">
+         In various disciplines, it has been shown that S-L is particularly advantageous and engaging for female students. For example, students in engineering courses with S-L reported a more appealing image of engineering, with scientific problems put in the context of society which appeals to students, particularly women (Kondrick 2003).  The lack of experiential education with societal implications, which appeals particularly to women, may be one reason traditional STEM courses do not attract women (Seymour 2002).  Research has demonstrated that the preferred learning style of women tends to be more “community oriented” (Baxter-Magolda 1992) and women have a unique way of learning and interpreting concepts that is contradictory to conventional, usually male dominated, programs (Kondrick 2003).  This concept of cooperative non-competitive learning environments, inherent to S-L, hasbeen shown to attract girls to STEM programs in K-12 (Thom 2001).   Paquin (2006) suggests that these aspects of S-L, in particular collaborative experiential learning, make it a possible solution to the “leaky pipeline” of women and underrepresented minorities in STEM. The innovative educational model for teaching data visualization is a novel application of S-L to data visualization education in computer science. 
+
+    <p style="font-size:1.2em; color:#7ebec0; text-align:center; padding:0 21% 0 21%; font-weight:bold; background-color:white; box-shadow: 0 0 20px 35px white"> If you are interested to learn more about Service-Learning or Visualization for Social Good, scroll down to find a few links to get you started:
 
             </div>
         </div>
@@ -464,3 +519,15 @@ University.</p>
 </body>
 
 </html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
